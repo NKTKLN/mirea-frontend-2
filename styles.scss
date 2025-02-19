@@ -1,0 +1,36 @@
+$primary-color: #6f42c1;
+$btn-hover-color: #563d7c;
+$bg-color: #2b2b2b;
+$content-bg-color: #353634;
+$text-color: #f1f1f1;
+
+body {
+    background-color: $bg-color;
+    color: $text-color;
+}
+
+.content-box {
+    background: $content-bg-color;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-custom {
+    background-color: $primary-color;
+    color: $text-color;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+
+    &:hover {
+        background-color: $btn-hover-color;
+    }
+}
+
+.error-code {
+    font-size: 5rem;
+    font-weight: bold;
+    color: $primary-color;
+}

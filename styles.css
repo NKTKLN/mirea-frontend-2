@@ -1,0 +1,31 @@
+body {
+  background-color: #2b2b2b;
+  color: #f1f1f1;
+}
+
+.content-box {
+  background: #353634;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-custom {
+  background-color: #6f42c1;
+  color: #f1f1f1;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.btn-custom:hover {
+  background-color: #563d7c;
+}
+
+.error-code {
+  font-size: 5rem;
+  font-weight: bold;
+  color: #6f42c1;
+}
+
+/*# sourceMappingURL=styles.css.map */
